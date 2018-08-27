@@ -17,8 +17,8 @@ export class ChatScreen extends Component {
 
 	componentDidMount() {
 		const chatManager = new Chatkit.ChatManager({
-			instanceLocator: 'v1:us1:a292b975-e752-4236-afd7-b7bc9d94312d',
-			key: '79b35741-5198-4553-93c9-e20869f5abb9:6QTUJZEaofx9OJZDe7S9P+9p0822n83vbAsQc6DsQsk=',
+			//instanceLocator: 'v1:us1:a292b975-e752-4236-afd7-b7bc9d94312d',
+			//key: '79b35741-5198-4553-93c9-e20869f5abb9:6QTUJZEaofx9OJZDe7S9P+9p0822n83vbAsQc6DsQsk=',
 			userId: this.props.currentUsername,
 			tokenProvider: new Chatkit.TokenProvider({
 				url: 'http://localhost:3001/authenticate',
