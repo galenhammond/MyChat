@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Usernameform } from './components/Usernameform'
-import ChatScreen from './chatscreen'
+import { ChatScreen } from './chatscreen'
 import { Footer } from './components/footer'
 
 class App extends Component {

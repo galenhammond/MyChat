@@ -1,0 +1,130 @@
+.main {
+
+}
+
+.chatbox {
+
+}
+
+.sidebar {
+	height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+}
+
+.jumbotron {
+	text-align: center;
+}
+
+.username {
+	text-align: center;
+	display: block;
+}
+
+.buttonHolder {
+	text-align: center;
+	padding: 20px;
+}
+
+input {
+	width: 200px;
+}
+
+.foot-text {
+	text-align: center;
+	display: block;
+}
+
+form {
+	text-align: center;
+}
+
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;  
+}
+
+:-ms-input-placeholder {  
+   text-align: center; 
+}
+
+.speech-bubble {
+    position: relative;
+    background: #FFFFCC;
+    border: 1px solid #FFCC00;
+    max-width:250px;
+    padding:10px;
+    font-family:arial;
+    margin:0 auto;
+    font-size:14px;
+    border-radius:6px;
+
+}
+.speech-bubble:after,
+.speech-bubble:before {
+    right: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.speech-bubble:after {
+    border-color: rgba(255, 255, 204, 0);
+    border-right-color: #FFFFCC;
+    border-width: 15px;
+    margin-top: -15px;
+}
+.speech-bubble:before {
+    border-color: rgba(255, 204, 0, 0);
+    border-right-color: #FFCC00;
+    border-width: 16px;
+    margin-top: -16px;
+}
+
+.author {
+	padding: 40px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.mine {
+	height: 100%;
+}
+
+.footy {
+	position: fixed;
+    height: 100px;
+    bottom: 0;
+    width: 100%;
+}
+.messageform {
+	position: fixed;
+    height: 100px;
+    bottom: 0;
+    width: 40%;
+    margin-top: auto;
+}
+
+#main {
+	margin-bottom: 100px;
+}
+
